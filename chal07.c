@@ -13,6 +13,6 @@ int main() {
         }
         
     }
-    printf("La longueur du string est : %s\n", T);
+    printf("La sting en majuscule est : %s\n", T);
     return 0;
 }
