@@ -2,6 +2,7 @@
 #include <string.h>
 
 int main() {
+    
     char T[100];
     char B[30];
     
