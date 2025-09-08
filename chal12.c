@@ -6,8 +6,9 @@ typedef struct {
     int notes[5];
 }etudiant;
 
+
 int main() {
-    
+
     etudiant p;
     printf("prénom: %s", p.prenom);
     scanf("%s", p.prenom);
