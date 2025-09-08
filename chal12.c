@@ -6,7 +6,6 @@ typedef struct {
     int notes[5];
 }etudiant;
 
-
 int main() {
 
     etudiant p;
