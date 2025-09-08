@@ -9,12 +9,12 @@ typedef struct {
 int main() {
 
     etudiant p;
-    printf("prénom: %s", p.prenom);
+    printf("prénom: ", p.prenom);
     scanf("%s", p.prenom);
-    printf("nom: %s", p.nom);
+    printf("nom: ", p.nom);
     scanf("%s", p.nom);
     for (int i = 0; i < 5; i++) {
-        printf("note %d: ", i + 1);
+        printf("note : ", i + 1);
         scanf("%d", &p.notes[i]);
     }
     for(int i=0; i<5; i++){
