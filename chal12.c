@@ -14,7 +14,7 @@ int main() {
     printf("nom: ", p.nom);
     scanf("%s", p.nom);
     for (int i = 0; i < 5; i++) {
-        printf("note : ", i + 1);
+        printf("note : %d", i + 1);
         scanf("%d", &p.notes[i]);
     }
     for(int i=0; i<5; i++){
